@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration:none;
+	color: black;
+}
+
+#turn{
+	overflow: hidden;
+}
+#turn button{
+	float: left;
+	height: 30px;
+}
+#warp {
+	float: left;
+	list-style: none;
+}
+#warp li{
+	float: left;
+	font-size: 25px;
+	line-height: 30px;
+	height: 30px;
+	width: 30px;
+	border:1px solid #ddd;
+	text-align: center;
+}
+#warp .cur{
+	background-color:#337ab7; 
+	border-color: #337ab7;
+	color: white;
+}
+#warp li:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+#lastPage,#nextPage,#bottomPage{
+	display: none;	
+}
